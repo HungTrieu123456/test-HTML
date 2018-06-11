@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/Controllers/Views/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="Css/layout.css">
+
+</head>
+<body class="x-body">
+    <div id="taskbar-menu"
+        class="taskbar-menu">
+   </div>
+   <div id="body-content"
+        class="body-content">
+        <div class="nav-menu">
+
+        </div>
+        <div class="main-content">
+            <!-- danh mua / nguyen vat lieu / thiet lap dau / phan hoi -->
+            <div class="infor-layout">
+                <!-- danh muc /  nguyen vat lieu -->
+                <div class="layout-left">
+                    <!-- danh muc -->
+                    <div class="layout-left-body">
+                        <div style="width: 250px; height: 46px; overflow: hidden; position: relative; left: 0; top: 0;">
+                            <a class="directory"
+                                unselectable="on"
+                                hidefocus="on">
+                                <span hidefocus="on"
+                                    class="text-directory"
+                                    role="presentation"
+                                    unselectable="on">
+                                    <span class="text-directory-inner"
+                                        unselectable="on">
+                                        Danh mục
+                                    </span>
+                                </span>
+                            </a>
+                            <!-- nguyen vat lieu -->
+                            <a class="nvl"
+                                unselectable="on"
+                                hidefocus="on">
+                                <span
+                                    class="text-nvl"
+                                    hidefocus="on"
+                                    unselectable="on">
+                                    Nguyên vật liệu
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- quay lai thiet lap / phan hoi -->
+                    
+                <div class="layout-right">
+                    <!-- quay lai thiet lap -->
+                    <a id="undo-setting"
+                        unselectable="on"
+                        class="undo-setting"
+                        role="presentation"
+                        hidefocus="on"
+                        >
+                        <span class="text-undo-setting"
+                            unselectable="on">
+                            Quay lại thiết lập ban đầu
+                        </span>
+                    </a>
+                    <!-- phan hoi -->
+                    <a id="response"
+                        unselectable="on"
+                        class="response"
+                        role="presentation"
+                        hidefocus="on"
+                        >
+                        <span class="wrap-response"
+                            role="presentation"
+                            unselectable="on">
+                            <span class="icon-response"
+                                unselectable="on"
+                                role="presentation">
+
+                            </span>
+                            <span class="text-response"
+                                unselectable="on">
+                                Phản hồi
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="table-content">
+                <!-- toolbar -->
+                <div class="table-toolbar">
+                    <div class="table-toolbar-inner">
+                        <!-- option them -->
+                        <a class="option-wrap"
+                            style="margin: 0px; right: auto; left: 0px; top: 0px;"
+                            hidefocus="on"
+                            unselectable="on"
+                            title="Ctrl+1">
+                            <span class="option-table">
+                                <span class="option-table-cell">
+                                    <span class="icon-option-default icon-option-add">&nbsp;</span>
+                                    <span class="text-option-default"
+                                        unselectable="on">Thêm</span>
+                                </span>
+                            </span>
+                        </a>
+                        <!-- option nhan ban -->
+                        <a class="option-wrap"
+                            style="margin: 0px; right: auto; left: 68px; top: 0px;"
+                            hidefocus="on"
+                            unselectable="on">
+                            <span class="option-table">
+                                <span class="option-table-cell">
+                                    <span class="icon-option-default icon-option-copy">&nbsp;</span>
+                                    <span class="text-option-default"
+                                        unselectable="on">Nhân bản</span>
+                                </span>
+                            </span>
+                        </a>
+                        <!-- option sua -->
+                        <a class="option-wrap"
+                            style="margin: 0px; right: auto; left: 155px; top: 0px;"
+                            hidefocus="on"
+                            unselectable="on"
+                            title="Ctrl+E">
+                            <span class="option-table">
+                                <span class="option-table-cell">
+                                    <span class="icon-option-default icon-option-edit">&nbsp;</span>
+                                    <span class="text-option-default"
+                                        unselectable="on">Sửa</span>
+                                </span>
+                            </span>
+                        </a>
+                        <!-- option xoa -->
+                        <a class="option-wrap"
+                            style="margin: 0px; right: auto; left: 214px; top: 0px;"
+                            hidefocus="on"
+                            unselectable="on"
+                            title="Ctrl+D">
+                            <span class="option-table">
+                                <span class="option-table-cell">
+                                    <span class="icon-option-default icon-option-delete">&nbsp;</span>
+                                    <span class="text-option-default"
+                                        unselectable="on">Xóa</span>
+                                </span>
+                            </span>
+                        </a>
+                        <!-- option nap -->
+                        <a class="option-wrap"
+                            style="margin: 0px; right: auto; left: 274px; top: 0px;"
+                            hidefocus="on"
+                            unselectable="on"
+                            title="Ctrl+Y">
+                            <span class="option-table">
+                                <span class="option-table-cell">
+                                    <span class="icon-option-default icon-option-refresh">&nbsp;</span>
+                                    <span class="text-option-default"
+                                        unselectable="on">Nạp</span>
+                                </span>
+                            </span>
+                        </a>
+                        <!-- ngan cach -->
+                        <div class="separate-option"
+                            style="right: auto; left: 338px; top: 4px; margin: 0px;">
+                        </div>
+                        <!-- option sao chep nvl -->
+                        <a class="option-wrap"
+                            style="margin: 0px; right: auto; left: 347px; top: 0px;"
+                            hidefocus="on"
+                            unselectable="on"
+                            title="Sao chép nguyên vật liệu">
+                            <span class="option-table">
+                                <span class="option-table-cell">
+                                    <span class="icon-option-default icon-option-copy-nvl">&nbsp;</span>
+                                    <span class="text-option-default"
+                                        unselectable="on">Sao chép NVL</span>
+                                </span>
+                            </span>
+                        </a>
+                        <!-- option nhap khau -->
+                        <a class="option-wrap"
+                            style="margin: 0px; right: auto; left: 459px; top: 0px;"
+                            hidefocus="on"
+                            unselectable="on">
+                            <span class="option-table">
+                                <span class="option-table-cell">
+                                    <span class="icon-option-default icon-option-import">&nbsp;</span>
+                                    <span class="text-option-default"
+                                        unselectable="on">Nhập khẩu</span>
+                                </span>
+                            </span>
+                        </a>
+                        <!-- option xuat khau -->
+                        <a class="option-wrap"
+                            style="margin: 0px; right: auto; left: 552px; top: 0px;"
+                            hidefocus="on"
+                            unselectable="on">
+                            <span class="option-table">
+                                <span class="option-table-cell">
+                                    <span class="icon-option-default icon-option-export">&nbsp;</span>
+                                    <span class="text-option-default"
+                                        unselectable="on">Xuất khẩu</span>
+                                </span>
+                            </span>
+                        </a>
+                        <!-- option giup -->
+                        <a class="option-wrap"
+                            style="margin: 0px; right: auto; left: 642px; top: 0px;"
+                            hidefocus="on"
+                            unselectable="on"
+                            title="F1">
+                            <span class="option-table">
+                                <span class="option-table-cell">
+                                    <span class="icon-option-default icon-option-help">&nbsp;</span>
+                                    <span class="text-option-default"
+                                        unselectable="on">Giúp</span>
+                                </span>
+                            </span>
+                        </a>
+
+
+                    </div>
+                </div>
+                <!-- table -->
+                <div class="table-main">
+                    <div class="table-dock">
+                        <div class="table-dock-inner">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+</body>
+</html>

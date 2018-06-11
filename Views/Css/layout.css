@@ -1,0 +1,447 @@
+.x-body {
+    min-height: 100%;
+    padding: 0;
+    touch-action: none;
+    overflow: hidden;
+    position: static;
+}
+
+.taskbar-menu {
+    height: 55px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #0973b9!important;
+    margin: 0px;
+    position: absolute;
+}
+
+.body-content {
+    width: 100%;
+    left: 0;
+    top: 55px;
+    height: 100%;
+    position: absolute;
+}
+
+.body-content .nav-menu {
+    width: 230px;
+    left: 0;
+    top: 0px;
+    height: 100%;
+    position: absolute;
+    background-color: #0973b9;
+}
+
+.body-content .main-content {
+    left: 230px;
+    top: 0px;
+    height: 100%;
+    width: 1136px;
+    position: absolute;
+}
+
+.body-content .main-content .infor-layout {
+    right: auto;
+    left: 0px;
+    margin: 0px;
+    width: 1136px;
+    top: 0px;
+    position: absolute;
+    height: 44px;
+    overflow: hidden;
+}
+
+.body-content .main-content .infor-layout .layout-left {
+    margin: 0px;
+    height: 40px;
+    right: auto;
+    left: 0px;
+    top: 0px;
+    width: 258px;
+}
+
+.body-content .main-content .infor-layout .layout-left .layout-left-body {
+    margin: 0px 0px 3px;
+    right: auto;
+    top: 3px;
+    height: 37px;
+    overflow: hidden;
+    padding-left: 8px!important;
+    position: relative;
+}
+
+.body-content .main-content .infor-layout .layout-left .directory {
+    right: auto;
+    left: 0px;
+    margin: 0px;
+    top: 0px;
+    padding: 3px 3px 3px 0;
+    cursor: default;
+    position: absolute;
+    border-width: 1px;
+}
+
+.body-content .main-content .infor-layout .layout-left .directory .text-directory {
+    height: 36px;
+    display: table;
+    vertical-align: middle;
+    line-height: 0;
+    height: 100%;
+    width: 100%;
+    cursor: default;
+}
+
+.body-content .main-content .infor-layout .layout-left .directory .text-directory .text-directory-inner {
+    color: #000;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: normal;
+    padding: 0 5px 0 0;
+    max-width: 100%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: default;
+}
+
+.body-content .main-content .infor-layout .layout-left .directory .text-directory::after {
+    width: 20px;
+    font-size: 20px;
+    color: #0072bc;
+    content: "";
+    line-height: 36px;
+    top: 0px;
+    left: 0px;
+    background-image: url("../../Models/Images/default-arrow.png");
+    background-repeat: no-repeat;
+    display: table-cell;
+    background-position: right center;
+}
+
+.body-content .main-content .infor-layout .layout-left .nvl {
+    right: auto;
+    left: 128px;
+    margin: 0px;
+    top: 0px;
+    padding: 3px 3px 3px 0;
+    cursor: default;
+    border-width: 1px;
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    outline: 0;
+}
+
+.body-content .main-content .infor-layout .layout-left .nvl .text-nvl {
+    line-height: 38px;
+    color: #0072bc;
+    padding: 0 5px 0 0;
+    max-width: 100%;
+    font-weight: normal;
+    font-size: 16px;
+    cursor: default;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.body-content .main-content .infor-layout .layout-right {
+    margin: 0px;
+    right: auto;
+    left: 259px;
+    width: 877px;
+    top: 0px;
+    height: 42px;
+    overflow: hidden;
+    position: absolute!important;
+}
+
+.body-content .main-content .infor-layout .layout-right .undo-setting {
+    margin: 0px;
+    width: 170px;
+    height: 28px;
+    right: auto;
+    left: 591px;
+    top: 14px;
+    position: absolute;
+    background-color: #fcfcfc!important;
+    border-color: #ccc;
+    background-image: none!important;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    vertical-align: top;
+    overflow: hidden;
+    border-radius: 0!important;
+    padding: 3px 3px 3px 3px;
+    box-sizing: border-box;
+}
+
+.body-content .main-content .infor-layout .layout-right .undo-setting .text-undo-setting {
+    color: #000;
+    font-weight: normal;
+    font: 12px/16px helvetica,arial,verdana,sans-serif;
+    padding: 0 10px;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.body-content .main-content .infor-layout .layout-right .response {
+    margin: 0px;
+    width: 100px;
+    height: 28px;
+    right: auto;
+    left: 769px;
+    top: 14px;
+    position: absolute;
+    background-color: #fcfcfc!important;
+    border-color: #ccc;
+    background-image: none!important;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    vertical-align: top;
+    overflow: hidden;
+    border-radius: 0!important;
+    padding: 3px 3px 3px 3px;
+    box-sizing: border-box;
+}
+
+.body-content .main-content .infor-layout .layout-right .response .wrap-response {
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.body-content .main-content .infor-layout .layout-right .response .wrap-response .icon-response {
+    width: 16px;
+    height: 16px;
+    background-image: url("../../Models/Images/viewEmail.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.body-content .main-content .infor-layout .layout-right .response .wrap-response .text-response {
+    color: #000;
+    font-weight: normal;
+    font: 12px/16px helvetica,arial,verdana,sans-serif;
+    padding: 0 5px;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.body-content .main-content .table-content {
+    padding: 0px 1px 1px;
+    margin: 0px;
+    right: auto;
+    left: 8px;
+    width: 1120px;
+    top: 52px;
+    height: 523px;
+    position: absolute;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: #fff;
+    border-color: #c1c1c1;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.body-content .main-content .table-content .table-toolbar {
+    border-width: 1px 1px 0px;
+    right: auto;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    width: 1118px;
+    background-color: #ededed!important;
+    border-color: #d9d9d9;
+    padding: 2px;
+    overflow: hidden;
+    position: absolute!important;
+    box-sizing: border-box;
+    border-style: solid;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner {
+    width: 1112px;
+    height: 22px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap {
+    padding: 2px 4px;
+    background: none;
+    border: 1px solid;
+    border-color: transparent;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .separate-option {
+    border-left-color: #ccc!important;
+    height: 14px;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    cursor: default;
+    width: 0;
+    position: absolute!important;
+    box-sizing: border-box;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    white-space: nowrap;
+    line-height: 0;
+    height: 16px;
+    cursor: pointer;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell .icon-option-default {
+    display: inline-block;
+    margin-right: 0;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    box-sizing: border-box;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: center;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell .text-option-default {
+    color: #000;
+    font-family: TahomaCustom!important;
+    max-width: calc(100% - 16px);
+    font: 12px/16px helvetica,arial,verdana,sans-serif;
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell .icon-option-add {
+    background-image: url("../../Models/Images/IconSprite.png")!important; 
+    background-position: 0-2648px!important;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell .icon-option-copy {
+    background-image: url("../../Models/Images/IconSprite.png")!important;
+    background-position: 0-1888px!important;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell .icon-option-edit {
+    background: url("../../Models/Images/Edit16.png") no-repeat 50% 50%!important;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell .icon-option-delete {
+    background-image: url("../../Models/Images/IconSprite.png")!important;
+    background-position: 0-2680px!important;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell .icon-option-refresh {
+    background-image: url("../../Models/Images/IconSprite.png")!important;
+    background-position: 0-2584px!important;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell .icon-option-copy-nvl {
+    background-image: url("../../Models/Images/IconSprite.png")!important;
+    background-position: 0-1888px!important;
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell .icon-option-import {
+    background-image: url("../../Models/Images/Import16.png");
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell .icon-option-export {
+    background-image: url("../../Models/Images/excel_97_24.png");
+}
+
+.body-content .main-content .table-content .table-toolbar .table-toolbar-inner .option-wrap .option-table .option-table-cell .icon-option-help {
+    background-image: url("../../Models/Images/IconSprite.png")!important;
+    background-position: 0-1600px!important;
+}
+
+.body-content .main-content .table-content .table-main {
+    margin: 0px;
+    width: 1118px;
+    right: auto;
+    left: 0px;
+    top: 27px;
+    height: 495px;
+    background-color: rebeccapurple;
+    border-color: #157fcc;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+} 
+
+.body-content .main-content .table-content .table-dock {
+    width: 1118px;
+    right: auto;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    border: 1px solid #c1c1c1;
+    border-color: #ccc!important;
+    background-color: #f5f5f5;
+    border-right-width: 1px!important;
+    border-left-width: 1px!important;
+    cursor: default;
+    position: absolute;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.body-content .main-content .table-content .table-dock .table-dock-inner {
+    width: 1116px;
+    height: 55px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top: 0;
+    cursor: default;
+}
+
